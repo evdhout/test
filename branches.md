@@ -5,7 +5,7 @@
 Each development step starts with creating a new branch. 
 Naming conventions initials-[feature|fix]-[description]
 
-    git checkout -b eh-feature-add-brnch-description
+    git checkout -b eh-feature-add-branch-description
 
 ## Work on branch and initial commit to remote
 
