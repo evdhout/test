@@ -13,5 +13,13 @@ Create a .gitattributes file inside the directory with the notebooks:
 
 Works at least on MacOS with `pip install jupyter` in a `conda` environment    
 
-Source : https://gist.github.com/33eyes/431e3d432f73371509d176d0dfb95b6e?permalink_comment_id=4662892
+Remarks
 
+- .gitattributes in repository
+- every team member must add the filter 
+- still need to check windows en VSCode
+
+
+Source : https://stackoverflow.com/questions/28908319/how-to-clear-jupyter-notebooks-output-in-all-cells-from-the-linux-terminal/58004619#58004619
+
+Source : https://gist.github.com/33eyes/431e3d432f73371509d176d0dfb95b6e?permalink_comment_id=4662892
