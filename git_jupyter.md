@@ -18,6 +18,7 @@ Remarks
 - .gitattributes in repository
 - every team member must add the filter 
 - still need to check windows en VSCode
+- to remove old outputs use `git add --renormalize .` and commit
 
 
 Source : https://stackoverflow.com/questions/28908319/how-to-clear-jupyter-notebooks-output-in-all-cells-from-the-linux-terminal/58004619#58004619
