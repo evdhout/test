@@ -13,14 +13,28 @@ Create a .gitattributes file inside the directory with the notebooks:
 
 Works at least on MacOS with `pip install jupyter` in a `conda` environment    
 
-Remarks
+## Remarks
 
 - .gitattributes in repository
 - every team member must add the filter 
 - still need to check windows en VSCode
 - to remove old outputs use `git add --renormalize .` and commit
 
+## Problem with git pull
 
-Source : https://stackoverflow.com/questions/28908319/how-to-clear-jupyter-notebooks-output-in-all-cells-from-the-linux-terminal/58004619#58004619
+When pulling the repository which had jupyter notebooks with output, I got an error:
 
-Source : https://gist.github.com/33eyes/431e3d432f73371509d176d0dfb95b6e?permalink_comment_id=4662892
+    Your local changes to the following files would be overwritten by merge:
+
+A checkout of the source notebook, did not solve it. Fixed it with:
+
+```git
+    git fetch --all
+    git checkout --hard origin/main
+```
+
+## Sources
+
+- https://stackoverflow.com/questions/28908319/how-to-clear-jupyter-notebooks-output-in-all-cells-from-the-linux-terminal/58004619#58004619
+- https://gist.github.com/33eyes/431e3d432f73371509d176d0dfb95b6e?permalink_comment_id=4662892
+- https://saturncloud.io/blog/how-to-force-git-pull-to-overwrite-local-files/
