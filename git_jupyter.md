@@ -26,7 +26,7 @@ When pulling the repository which had jupyter notebooks with output, I got an er
 
     Your local changes to the following files would be overwritten by merge:
 
-A checkout of the source notebook, did not solve it. Fixed it with:
+A checkout of the source notebook, did not solve it. Fixed it with, but dangerous because it will discard all changes:
 
 ```git
     git fetch --all
