@@ -1,0 +1,44 @@
+[
+  {
+    "ID": 0,
+    "DimensionKey": "BedrijfskenmerkenSBI2008",
+    "Title": "Bedrijfstakken (SBI 2008) en -grootte",
+    "Description": "De Nederlandse hi\u00ebrarchische indeling van economische activiteiten die door het CBS wordt gebruikt om bedrijfseenheden in te delen naar hun hoofdactiviteit. De SBI 2008 is de versie die vanaf 2008 gebruikt wordt.\r\n\r\n\"Bedrijfstak\" of \"branche\" zijn gangbare termen voor groepen van bedrijven met dezelfde hoofdactiviteit.",
+    "ParentID": null
+  },
+  {
+    "ID": 1,
+    "DimensionKey": "BedrijfskenmerkenSBI2008",
+    "Title": "Totaal",
+    "Description": "",
+    "ParentID": 0
+  },
+  {
+    "ID": 2,
+    "DimensionKey": "BedrijfskenmerkenSBI2008",
+    "Title": "Bedrijfssector",
+    "Description": null,
+    "ParentID": 0
+  },
+  {
+    "ID": 3,
+    "DimensionKey": "BedrijfskenmerkenSBI2008",
+    "Title": "Bedrijfstak",
+    "Description": null,
+    "ParentID": 0
+  },
+  {
+    "ID": 4,
+    "DimensionKey": "BedrijfskenmerkenSBI2008",
+    "Title": "Bedrijfsklasse",
+    "Description": null,
+    "ParentID": 0
+  },
+  {
+    "ID": 5,
+    "DimensionKey": "BedrijfskenmerkenSBI2008",
+    "Title": "Bedrijfsgrootte",
+    "Description": null,
+    "ParentID": 0
+  }
+]

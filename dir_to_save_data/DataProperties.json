@@ -1,0 +1,37 @@
+[
+  {
+    "odata.type": "Cbs.OData.Dimension",
+    "ID": 0,
+    "Position": 0,
+    "ParentID": null,
+    "Type": "Dimension",
+    "Key": "BedrijfskenmerkenSBI2008",
+    "Title": "Bedrijfskenmerken (SBI 2008)",
+    "Description": "Indeling van bedrijven en instellingen naar economische activiteiten en\r\nbedrijfsgrootte en naar de verzekeringsvorm van het bedrijf. \r\nVoor de indeling naar economische activiteiten, zoals bedrijfssector, bedrijfstak en -klasse, wordt de Standaard bedrijfsindeling 2008 (SBI2008) van het CBS gehanteerd."
+  },
+  {
+    "odata.type": "Cbs.OData.TimeDimension",
+    "ID": 1,
+    "Position": 1,
+    "ParentID": null,
+    "Type": "TimeDimension",
+    "Key": "Perioden",
+    "Title": "Perioden",
+    "Description": null,
+    "ReleasePolicy": true
+  },
+  {
+    "odata.type": "Cbs.OData.Topic",
+    "ID": 2,
+    "Position": 2,
+    "ParentID": null,
+    "Type": "Topic",
+    "Key": "Ziekteverzuimpercentage_1",
+    "Title": "Ziekteverzuimpercentage",
+    "Description": "Het ziekteverzuimpercentage is het totaal aantal ziektedagen van de werknemers, in procenten van het totaal aantal beschikbare (werk-/kalender)dagen van de werknemers in de verslagperiode.\r\nHet ziekteverzuimpercentage is inclusief het verzuim langer dan een jaar en exclusief zwangerschaps- en bevallingsverlof.",
+    "Datatype": "Float",
+    "Unit": "%",
+    "Decimals": 1,
+    "Default": "Missing"
+  }
+]
