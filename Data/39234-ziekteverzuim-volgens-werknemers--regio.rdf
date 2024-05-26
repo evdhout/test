@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:donl="https://data.overheid.nl/dcat.rdf#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:v="http://www.w3.org/2006/vcard/"
+>
+  <rdf:Description rdf:about="https://data.overheid.nl/dataset/39234-ziekteverzuim-volgens-werknemers--regio">
+    <dct:description xml:lang="nl">Deze tabel bevat gegevens over het ziekteverzuim van werknemers in de leeftijd van 15 tot 75 jaar, naar regio (landsdeel, provincie en RegioPlus-arbeidsmarktregio). Hierbij tellen ook werknemers mee die wel een dienstverband hebben maar geen arbeidsprestaties leveren wegens ziekte, zwangerschapsverlof of een andere tijdelijke loopbaanonderbreking. Verder zijn in de tabel ook gegevens opgenomen over het laatste verzuimgeval van werknemers (dit verzuimgeval kan langer dan 12 maanden geleden zijn), het soort klachten bij het recentste werkgerelateerde verzuimgeval en de belangrijkste reden voor de klachten.
+
+Vanaf het verslagjaar 2022 verschilt de wijze waarop gegevens voor de NEA zijn verzameld en verwerkt op enkele punten van eerdere verslagjaren. Daardoor zijn de cijfers vanaf 2022 mogelijk niet in alle gevallen vergelijkbaar met de cijfers tot en met 2021. Meer informatie is beschikbaar in de onderzoeksbeschrijving van de NEA 2022. Zie paragraaf 4.
+
+Gegevens beschikbaar vanaf: 2014.
+
+Status van de cijfers:
+Cijfers in deze tabel zijn definitief.
+
+Wijzigingen per 22 augustus 2023
+De structuur van een aantal onderwerpen is gewijzigd om beter aan te sluiten op de inhoud: 
+- Het onderwerp “Soort klachten recentste verzuimgeval” is hernoemd naar “Klachten recentste verzuimgeval”.
+- Het onderwerp “Reden klachten werk” is hernoemd naar “Reden”, en binnen dit onderwerp is de selectie “Andere factoren” hernoemd naar “Andere redenen”. Omdat het onderwerp “Reden” alleen van toepassing is op werknemers die vanwege werk verzuimd hebben is het bovendien in een nieuwe submap geplaatst.
+- Voor bovenstaande onderwerpen en de onderliggende selecties zijn telkens twee variaties aangemaakt in de tabel, om onderscheid te kunnen maken tussen de situatie vóór 2022 en de situatie vanaf 2022.
+Deze wijzigingen hebben geen effect op de resultaten in de tabel.
+
+Wanneer komen er nieuwe cijfers?
+Uiterlijk in mei verschijnen de cijfers over het voorafgaande jaar.</dct:description>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/743e006b-3ab1-4b25-b76e-5cc2d913fdf2"/>
+    <dct:title xml:lang="nl">Ziekteverzuim volgens werknemers; regio</dct:title>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2023-08-22T02:00:00</dct:modified>
+    <donl:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.nl"/>
+    <donl:metadataLanguage rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:distribution rdf:nodeID="dataset.39234-ziekteverzuim-volgens-werknemers--regio.distribution.1"/>
+    <adms:identifier rdf:resource="https://data.overheid.nl/data/dataset/743e006b-3ab1-4b25-b76e-5cc2d913fdf2"/>
+    <donl:identifier rdf:resource="https://dataderden.cbs.nl/ODataApi/OData/24152NED"/>
+    <donl:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <donl:sourceCatalog rdf:resource="https://dataderden.cbs.nl/ODataCatalog/"/>
+    <adms:identifier rdf:resource="https://data.overheid.nl/dataset/39234-ziekteverzuim-volgens-werknemers--regio"/>
+    <donl:authority rdf:resource="http://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek"/>
+    <dcat:theme rdf:resource="http://standaarden.overheid.nl/owms/terms/Arbeidsomstandigheden_(thema)"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/39234-ziekteverzuim-volgens-werknemers--regio"/>
+    <donl:publisher rdf:resource="http://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek"/>
+    <adms:identifier rdf:resource="https://data.overheid.nl/dataset/743e006b-3ab1-4b25-b76e-5cc2d913fdf2"/>
+    <donl:status rdf:resource="http://data.overheid.nl/status/beschikbaar"/>
+    <dcat:contactPoint rdf:nodeID="dataset.39234-ziekteverzuim-volgens-werknemers--regio.contactPoint"/>
+    <adms:identifier rdf:resource="https://data.overheid.nl/data/dataset/39234-ziekteverzuim-volgens-werknemers--regio"/>
+    <dcat:distribution rdf:nodeID="dataset.39234-ziekteverzuim-volgens-werknemers--regio.distribution.2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Format"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.iana.org/assignments/media-types/application/atom+xml">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Mediatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset.39234-ziekteverzuim-volgens-werknemers--regio.distribution.1">
+    <dcat:downloadURL rdf:resource="https://dataderden.cbs.nl/ODataApi/OData/24152NED"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/39234-ziekteverzuim-volgens-werknemers--regio.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Distribution"/>
+    <dct:description xml:lang="nl">Ziekteverzuim, verzuimduur, verzuimfrequentie volgens werknemers
+AZW branches, RegioPlus-arbeidsmarktregio's</dct:description>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2024-03-14T12:42:10.087901</dct:issued>
+    <dct:title xml:lang="nl">API</dct:title>
+    <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.nl"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+    <donl:distributionType rdf:resource="https://data.overheid.nl/distributiontype/webservice"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <dcat:accessURL rdf:resource="https://azwstatline.cbs.nl/#/AZW/nl/dataset/24152NED/table"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/743e006b-3ab1-4b25-b76e-5cc2d913fdf2.rdf"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.overheid.nl/dataset/743e006b-3ab1-4b25-b76e-5cc2d913fdf2">
+    <adms:status xml:lang="nl">:updated</adms:status>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/743e006b-3ab1-4b25-b76e-5cc2d913fdf2.rdf"/>
+    <dct:description xml:lang="nl">Deze tabel bevat gegevens over het ziekteverzuim van werknemers in de leeftijd van 15 tot 75 jaar, naar regio (landsdeel, provincie en RegioPlus-arbeidsmarktregio). Hierbij tellen ook werknemers mee die wel een dienstverband hebben maar geen arbeidsprestaties leveren wegens ziekte, zwangerschapsverlof of een andere tijdelijke loopbaanonderbreking. Verder zijn in de tabel ook gegevens opgenomen over het laatste verzuimgeval van werknemers (dit verzuimgeval kan langer dan 12 maanden geleden zijn), het soort klachten bij het recentste werkgerelateerde verzuimgeval en de belangrijkste reden voor de klachten.
+
+Vanaf het verslagjaar 2022 verschilt de wijze waarop gegevens voor de NEA zijn verzameld en verwerkt op enkele punten van eerdere verslagjaren. Daardoor zijn de cijfers vanaf 2022 mogelijk niet in alle gevallen vergelijkbaar met de cijfers tot en met 2021. Meer informatie is beschikbaar in de onderzoeksbeschrijving van de NEA 2022. Zie paragraaf 4.
+
+Gegevens beschikbaar vanaf: 2014.
+
+Status van de cijfers:
+Cijfers in deze tabel zijn definitief.
+
+Wijzigingen per 22 augustus 2023
+De structuur van een aantal onderwerpen is gewijzigd om beter aan te sluiten op de inhoud: 
+- Het onderwerp “Soort klachten recentste verzuimgeval” is hernoemd naar “Klachten recentste verzuimgeval”.
+- Het onderwerp “Reden klachten werk” is hernoemd naar “Reden”, en binnen dit onderwerp is de selectie “Andere factoren” hernoemd naar “Andere redenen”. Omdat het onderwerp “Reden” alleen van toepassing is op werknemers die vanwege werk verzuimd hebben is het bovendien in een nieuwe submap geplaatst.
+- Voor bovenstaande onderwerpen en de onderliggende selecties zijn telkens twee variaties aangemaakt in de tabel, om onderscheid te kunnen maken tussen de situatie vóór 2022 en de situatie vanaf 2022.
+Deze wijzigingen hebben geen effect op de resultaten in de tabel.
+
+Wanneer komen er nieuwe cijfers?
+Uiterlijk in mei verschijnen de cijfers over het voorafgaande jaar.</dct:description>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/39234-ziekteverzuim-volgens-werknemers--regio.rdf"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2023-05-23T05:08:26.404769</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2024-03-14T12:42:09.422770</dct:modified>
+    <dct:title xml:lang="nl">39234-ziekteverzuim-volgens-werknemers--regio</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <foaf:primaryTopic rdf:resource="https://data.overheid.nl/dataset/39234-ziekteverzuim-volgens-werknemers--regio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/licenses/by/4.0/deed.nl">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#License"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.overheid.nl/status/beschikbaar">
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#DatasetStatus"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/file-type/ATOM">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Format"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://standaarden.overheid.nl/owms/terms/Arbeidsomstandigheden_(thema)">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="http://standaarden.overheid.nl/owms/terms/Thema"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset.39234-ziekteverzuim-volgens-werknemers--regio.distribution.2">
+    <dcat:accessURL rdf:resource="https://azwstatline.cbs.nl/#/AZW/nl/dataset/24152NED/table"/>
+    <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.nl"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ATOM"/>
+    <dcat:downloadURL rdf:resource="https://dataderden.cbs.nl/ODataFeed/OData/24152NED"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2024-03-14T12:42:10.087908</dct:issued>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <dct:description xml:lang="nl">Ziekteverzuim, verzuimduur, verzuimfrequentie volgens werknemers
+AZW branches, RegioPlus-arbeidsmarktregio's</dct:description>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/743e006b-3ab1-4b25-b76e-5cc2d913fdf2.rdf"/>
+    <donl:distributionType rdf:resource="https://data.overheid.nl/distributiontype/webservice"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/39234-ziekteverzuim-volgens-werknemers--regio.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Distribution"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/atom+xml"/>
+    <dct:title xml:lang="nl">Feed</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/NLD">
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Language"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dataderden.cbs.nl/ODataCatalog/">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#OpenbaarheidsNiveau"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.iana.org/assignments/media-types/application/json">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Mediatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.overheid.nl/distributiontype/webservice">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#DistributionType"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset.39234-ziekteverzuim-volgens-werknemers--regio.contactPoint">
+    <v:fn xml:lang="nl">Centraal Bureau voor de Statistiek</v:fn>
+    <v:email rdf:resource="mailto:infoservice@cbs.nl"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/frequency/ANNUAL">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Frequency"/>
+  </rdf:Description>
+</rdf:RDF>
